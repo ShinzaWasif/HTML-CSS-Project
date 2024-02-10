@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+#pagetop {
+    font-family: M PLUS Rounded 1c;
+    background-color: #e7ddf6;
+}
+
+nav {
+    height: 65px;
+    width: 100%;
+}
+
+nav .h1 {
+    font-family: Julee;
+}
+
+nav a {
+    font-size: 200px;
+    padding: 4px;
+    border: 8px rgb(184, 136, 53);
+    border-style: double;
+    margin-left: 10px
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: White;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover,
+.dropdown-menu a:hover {
+    background: rgba(130, 113, 154, 0.715);
+    transition: .5s;
+}
+
+.header1 h1 {
+    font-family: Julee;
+    letter-spacing: 3px;
+    font-size: 70px;
+    font-weight: 1000;
+    padding: 60px 0;
+    background-image: linear-gradient(-225deg,
+            #2b1a6c 0%,
+            #b804ac 29%,
+            #e07306 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.header1 {
+    width: 100%;
+    height: 450px;
+    margin-top: 65px;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Image5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 65%;
+    color: white;
+}
+
+.btn-bgstroke {
+    font-size: 20px;
+    color: white;
+    background-color: #342765;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.btn-bgstroke:hover {
+    background-color: rgb(184, 136, 53);
+}
+
+.products,
+#product,
+#contact {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.products h1 {
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 1000;
+    border-bottom: 5px solid #2b1a6c;
+    padding-bottom: 3px;
+    text-align: left;
+}
+
+
+#contact .card {
+    background-color: #5e49af;
+}
+
+
+form {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+#contact h2 {
+    color: #2b1a6c;
+    padding: 2px;
+    border-top: 3px solid #2b1a6c;
+    border-bottom: 3px solid #2b1a6c;
+}
+
+
+.Gadget .col-lg-3 .card {
+    background-color: #c1a5ed;
+    border: 7px double #2b1a6c;
+    font-family: Georgia;
+}
+
+.Gadget .col-lg-3 .card-body {
+    padding: 8px;
+}
+
+footer h5 {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 8px;
+
+}
+
+footer .table td {
+    background-color: #a195d4;
+}
+
+.Gadget .col-lg-3 .card-body h3,
+.Gadget .col-lg-3 .card-body h5 {
+    color: #2b1a6c;
+}
+
+.Gadget .col-lg-3 .card-body button {
+    background-color: #513e9e;
+    color: white;
+}
