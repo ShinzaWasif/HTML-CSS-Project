@@ -1,2 +1,2 @@
-# HTML-CSS-Project
-First Project Using HTML and CSS.
+# E-commerce Website Using HTML and CSS
+First Project Using HTML and CSS. 
